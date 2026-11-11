@@ -1,0 +1,11 @@
+{
+  "name": "aizdm-local-scraper",
+  "version": "1.0.0",
+  "private": false,
+  "description": "独立的本地商品数据采集器：抓取公开 JSON/HTML 接口并保存为 JSON/CSV",
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": { "start": "node src/cli.mjs", "check": "node --check src/cli.mjs && node --check src/runner.mjs" },
+  "dependencies": { "cheerio": "^1.1.2" },
+  "license": "MIT"
+}

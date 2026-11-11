@@ -1,0 +1,30 @@
+{
+  "sources": [
+    {
+      "id": "demo-json",
+      "name": "示例 JSON 店铺",
+      "provider": "generic-json",
+      "shop_url": "https://example.com/products",
+      "config": {
+        "endpoint": "https://example.com/api/products",
+        "itemsPath": "data",
+        "fields": {
+          "key": "id",
+          "name": "name",
+          "price": "price",
+          "marketPrice": "market_price",
+          "link": "url",
+          "stock": "stock",
+          "images": "images"
+        },
+        "pagination": {
+          "mode": "page",
+          "pageParam": "page",
+          "pageSizeParam": "page_size",
+          "pageSize": 100,
+          "totalPagesPath": "pagination.total_page"
+        }
+      }
+    }
+  ]
+}
