@@ -6,6 +6,16 @@
 
 采集器采用适配器架构，数据源配置与采集代码分离，支持自定义字段映射、分页、请求方法、请求头和 HTML 选择器。所有数据在本地处理和保存，不需要额外的数据库或远程服务。
 
+## 成品账号与代充
+
+| 产品 | 成品账号 | 代充 |
+| --- | --- | --- |
+| ChatGPT | [ChatGPT成品](https://aizhangdaye.com/account/ChatGPT) | [ChatGPT代充](https://aizhangdaye.com/recharge/ChatGPT) |
+| Claude | [Claude成品号](https://aizhangdaye.com/account/Claude) | [Claude代充](https://aizhangdaye.com/recharge/Claude) |
+| Gemini | [Gemini成品号](https://aizhangdaye.com/account/Gemini) | [Gemini代充](https://aizhangdaye.com/recharge/Gemini) |
+| Grok | [Grok成品号](https://aizhangdaye.com/account/Grok) | [Grok代充](https://aizhangdaye.com/recharge/Grok) |
+| Muse | [Muse成品号](https://aizhangdaye.com/account/Muse) | — |
+
 ## 环境要求
 
 - Node.js 22 或更高版本
